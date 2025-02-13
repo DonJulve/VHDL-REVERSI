@@ -21,9 +21,11 @@ El objetivo es construir una macro-celda capaz de operar en las 8 direcciones po
 
 ## Requisitos
 Para simular y sintetizar el diseño se necesita:
+### Linux:
 - **GHDL** para simulación.
-- **GTKWave** para visualizar las señales (o cualquier visualizador de señales como Modelsim).
-- Cualquier **herramienta de síntesis VHDL**, como Quartus o Vivado.
+- **GTKWave** para visualizar las señales.
+### Windows:
+- **Modelsim** para simular y visualizar.
 
 ## Instalación y Uso
 1. Clona el repositorio:
