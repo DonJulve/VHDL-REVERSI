@@ -33,9 +33,9 @@ Para simular y sintetizar el diseño se necesita:
    ```
 2. Ejecuta la simulación con GHDL:
    ```sh
-   ghdl -a *.vhdl
-   ghdl -e testbench
-   ghdl -r testbench --vcd=output.vcd
+   ghdl -a *.vhd
+   ghdl -e sim_matrix
+   ghdl -r sim_matrix --vcd=output.vcd
    ```
 3. Visualiza la salida con GTKWave:
    ```sh
