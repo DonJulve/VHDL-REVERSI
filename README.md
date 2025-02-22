@@ -13,11 +13,11 @@ El objetivo es construir una macro-celda capaz de operar en las 8 direcciones po
 - Procesamiento paralelo de todo el tablero.
 
 ## Archivos del Proyecto
-- `celda_base.vhdl`: Implementación de la celda básica.
-- `macro_celda.vhdl`: Implementación de la macro-celda.
-- `matriz_celdas.vhdl`: Módulo combinacional que procesa todo el tablero.
-- `test_microcelda.vhdl`: Banco de pruebas para verificar el correcto funcionamiento de la celda básica.
-- `sim_matrix.vhdl`: Banco de pruebas para verificar el correcto funcionamiento del diseño.
+- `celda_base.vhd`: Implementación de la celda básica.
+- `macro_celda.vhd`: Implementación de la macro-celda.
+- `matriz_celdas.vhd`: Módulo combinacional que procesa todo el tablero.
+- `test_microcelda.vhd`: Banco de pruebas para verificar el correcto funcionamiento de la celda básica.
+- `sim_matrix.vhd`: Banco de pruebas para verificar el correcto funcionamiento del diseño.
 
 ## Requisitos
 Para simular y sintetizar el diseño se necesita:
